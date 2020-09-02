@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  	<!-- facebook page system -->
+  	<div id="fb-root"></div>
+	<!-- facebook page system end-->
+
+    <header>
+    	<div class="top_nav">
+    		<div class="container">
+    			<div class="top_nav_content">
+	    			<div class="nav_social_icon">
+	    				<div class="nav_single_icon">
+	    					<a href="#"><i class="fab fa-twitter"></i></a>
+	    				</div>
+	    				<div class="nav_single_icon">
+	    					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+	    				</div>
+	    				<div class="nav_single_icon">
+	    					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+	    				</div>
+	    				<div class="nav_single_icon">
+	    					<a href="#"><i class="fab fa-youtube"></i></a>
+	    				</div>
+	    				<div class="nav_single_icon">
+	    					<a href="#"><i class="fab fa-facebook-f"></i></a>
+	    				</div>
+	    			</div>
+	    			<!-- responsive social icons -->
+	    			<div class="device_nav_social_icon">
+	    				<div class="dropdown">
+						  <button class="show_icon_btn" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+						    <i class="fas fa-share-alt"></i>
+						  </button>
+						  <div class="dropdown-menu show_all_icons" aria-labelledby="dropdownMenuButton">
+						    <div class="nav_single_icon">
+	    					<a href="#"><i class="fab fa-twitter"></i></a>
+	    					</div>
+		    				<div class="nav_single_icon">
+		    					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+		    				</div>
+		    				<div class="nav_single_icon">
+		    					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+		    				</div>
+		    				<div class="nav_single_icon">
+		    					<a href="#"><i class="fab fa-youtube"></i></a>
+		    				</div>
+		    				<div class="nav_single_icon">
+		    					<a href="#"><i class="fab fa-facebook-f"></i></a>
+		    				</div>
+						  </div>
+						</div>
+	    			</div>
+
+	    			<div class="nav_login_system">
+	    				<div class="btn-group">
+						  <button type="button" class="login_btn" data-toggle="dropdown" >
+						    <span class="mr-2"><i class="fas fa-user"></i></span> Login
+						  </button>
+						  <div class="dropdown-menu dropdown-menu-right login_box">
+						    <form action="">
+						    	<p class="input_level">Username</p>
+						    	<input type="text" id="username" class="mb-3">
+						    	<p class="input_level">Password</p>
+						    	<input type="password" id="password" ><br>
+						    	<input type="submit" value="Login" class="submit_btn"><br>
+						    	<a href="#" class="forgot_password">Forgot Your Password ?</a>
+						    </form>
+						  </div>
+						</div>
+	    			</div>
+	    		</div>
+    	</div>
+    </div>
+
+    <div class="main_nav">
+    	<div class="container">
+    		<nav class="navbar p-0">
+			  <div class="site_logo">
+			  	<a class="navbar-brand" href="index.html">
+			  		<img src="images/logo_red.png" alt="logo" class="img-fluid logo_img"><br>
+			  		<p class="navbar-text"><i>Internet Service Provider</i></p>
+			  	</a>
+			  </div>
+			  <ul class="nav_items">
+			      <li class="nav-item">
+			        <a class="nav-link active" href="index.html">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="aboutus.html">About Us</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="services.html">Services</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="packages.html">Packages</a>
+			      </li>
+			      <li class="nav-item dropdown_items">
+			        <a class="nav-link" style="color: #2b2b2b;cursor: pointer;">Payment <span><i class="fas fa-caret-down"></i></span></a>
+			        <ul class="dropdown_menu">
+			        	<li class="nav-item">
+					        <a class="nav-link" href="bkash-bill.html">Bkash Payment System</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="online-payment.html">Online Payment System</a>
+					      </li>
+			        </ul>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="contact.html">Contact</a>
+			      </li>
+			    </ul>
+			</nav>
+    	</div>
+    </div>
+
+    <!-- responsive nav -->
+    <div class="device_nav">
+    	<div class="container-fluid">
+    		<nav class="navbar">
+    			<div class="device_nav_logo">
+			  	<a class="navbar-brand" href="index.html">
+			  		<img src="images/logo_red.png" alt="logo" class="img-fluid device_logo_img"><br>
+			  		<p class="navbar-text"><i>Internet Service Provider</i></p>
+			  	</a>
+			  </div>
+    		</nav>
+    		<nav class="navbar p-0 device_nav_content">
+				  <button class="navbar-toggler menu_bars_icon" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				    <i class="fas fa-bars"></i>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				    <ul class="device_nav_items">
+			      <li class="nav-item">
+			        <a class="nav-link active" href="index.html">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="aboutus.html">About Us</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="services.html">Services</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="packages.html">Packages</a>
+			      </li>
+			     <li class="nav-item dropdown_items">
+			        <a class="nav-link" style="color: #2b2b2b;cursor: pointer;">Payment <span><i class="fas fa-caret-down"></i></span></a>
+			        <ul class="dropdown_menu device_dropdown">
+			        	<li class="nav-item">
+					        <a class="nav-link" href="bkash-bill.html">Bkash Payment System</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="online-payment.html">Online Payment System</a>
+					      </li>
+			        </ul>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="contact.html">Contact</a>
+			      </li>
+			    </ul>
+				  </div>
+			</nav>
+    	</div>
+    </div>
+    </header>
+    <section>
+    	<div class="about_banner">
+			<div class="container">
+				<div class="banner_body">
+					<h1 class="font-weight-bold">Introducion</h1>
+					<div class="about_banner_separator"></div>
+					<p>If you are searching a ISP company who can provide you best Internet Connection with 
+						proper Technical Support and can meet your requirement then OneNet is the right solution for you.You will get more from your expectation.</p>
+				</div>
+			</div>
+			<div class="banner_footer">
+				<div class="container">
+					<div class="banner_footer_content">
+						<ul>
+							<li><a class="active nav-link" href="index.html"><span class="mr-2"><i class="fas fa-home"></i></span> Home</a></li>
+							<li> / </li>
+							<li class="nav-link">Services</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+    	</div>
+    </section>
+    <section class="service_section py-5">
+    	<div class="container text-center">
+    		<h1 class="text-center text-capitalize title">Services We Provide</h1>
+    		<div class="separator"></div>
+    		<p class="header_text mb-5">If you are searching a ISP company who can provide you best Internet Connection with proper Technical Support and can meet your requirement then OneNet is the right solution for you.You will get more from your expectation.</p>
+
+    		<div class="row">
+    			<div class="col-lg-4 col-md-6 col-sm-12 col-12 mx-auto mb-lg-4 mb-sm-3 service_box_responsive">
+    				<div class="service_box">
+    					<p class="service_icon"><i class="fas fa-laptop"></i></i></p>
+	    				<h2 class="service_title">Corporate Internet</h2>
+	    				<p class="service_text">In addition to broadband internet services, we help our clients build, connect, operate and maintain their own SOHO or office network.</p>
+    				</div>
+    			</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-12 mx-auto mb-lg-4 mb-sm-3 service_box_responsive">
+    				<div class="service_box">
+    					<p class="service_icon"><i class="fas fa-signal"></i></p>
+	    				<h2 class="service_title">Home Internet</h2>
+	    				<p class="service_text">In addition to broadband internet services, we help our clients build, connect, operate and maintain their own SOHO or office network.</p>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 col-md-6 col-sm-12 col-12 mx-auto mb-lg-4 mb-sm-3 service_box_responsive">
+    				<div class="service_box">
+    					<p class="service_icon"><i class="fas fa-wifi"></i></p>
+	    				<h2 class="service_title">Wifi Hotspot</h2>
+	    				<p class="service_text">In addition to broadband internet services, we help our clients build, connect, operate and maintain their own SOHO or office network.</p>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 col-md-6 col-sm-12 col-12 mx-auto service_box_responsive">
+    				<div class="service_box">
+    					<p class="service_icon"><i class="far fa-file-video"></i></p>
+	    				<h2 class="service_title">Video Surveillance</h2>
+	    				<p class="service_text">In addition to broadband internet services, we help our clients build, connect, operate and maintain their own SOHO or office network.</p>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 col-md-6 col-sm-12 col-12 mx-auto service_box_responsive">
+    				<div class="service_box">
+    					<p class="service_icon"><i class="fas fa-phone-alt"></i></p>
+	    				<h2 class="service_title">Customer Support</h2>
+	    				<p class="service_text">In addition to broadband internet services, we help our clients build, connect, operate and maintain their own SOHO or office network.</p>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 col-md-6 col-sm-12 col-12 mx-auto service_box_responsive">
+    				<div class="service_box">
+    					<p class="service_icon"><i class="fas fa-network-wired"></i></p>
+	    				<h2 class="service_title">Network Solution</h2>
+	    				<p class="service_text">In addition to broadband internet services, we help our clients build, connect, operate and maintain their own SOHO or office network.</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+     <section class="choseus_section py-5">
+    	<div class="container">
+    		<h2 class="choseus_section_title">Why Choose Us</h2>
+    		<div class="separator_for_choose"></div>
+    		<div class="row">
+	    		<div class="col-md-6 col-12 mx-auto">
+	    			<div class="left_box">
+	    				<div id="accordion">
+						  <div class="main_panel">
+						    <div class="panel_link" id="headingOne">
+						      <h5 class="mb-0 panel_name active_panel">
+						        <button class="btn btn-link panel_btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+						          We are the best ISP Provider
+						        </button>
+						      </h5>
+						    </div>
+
+						    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+						      <div class="panel_body">
+						        If you are searching a ISP company who can provide you best Internet Connection with proper Technical Support and can meet your requirement then OneNet is the right solution for you.You will get more from your expectation.
+						      </div>
+						    </div>
+						  </div>
+						  <div class="main_panel">
+						    <div class="panel_link" id="headingTwo">
+						      <h5 class="mb-0 panel_name">
+						        <button class="btn btn-link panel_btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+						          Effective Support Team
+						        </button>
+						      </h5>
+						    </div>
+						    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+						      <div class="panel_body">
+						        Our Support Team is our strength. We have a best support team. They are experienced and hard worker.Our engineers and testing department ensure the highest level of work membership. Such transparency in operation pays back through giving a very strong foundation to the confidence of the people who deals with OneNet.
+						      </div>
+						    </div>
+						  </div>
+						  <div class="main_panel">
+						    <div class="panel_link" id="headingThree">
+						      <h5 class="mb-0 panel_name">
+						        <button class="btn btn-link panel_btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						          24/7 Customer Support
+						        </button>
+						      </h5>
+						    </div>
+						    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+						      <div class="panel_body">
+						        Our customers are our top priority. No matter where in the world you are, or what you need, our service representatives are ready to help. Our talented personal reaffirm our commitment to working closely with you and to solve any kind of problem. We understand that your business depends on delivering high-quality communications day after day. Our customer service Operations Centers are staffed 24 hours a day, 365 days a year, with experts in transmission and fiber enablesgineering. No matter when you need assistance, we’re available to help you
+						      </div>
+						    </div>
+						  </div>
+						</div>
+	    			</div>
+	    		</div>
+	    		<div class="col-md-6 col-12 mx-auto">
+	    			<div class="right_box">
+	    				<div class="progress_bars">
+	    					<div class="progress_bars_color" style="width: 85%;">
+	    						<div class="progress_bars_text">
+	    							<p>Corporate Internet</p>
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="progress_bars">
+	    					<div class="progress_bars_color" style="width: 95%;">
+	    						<div class="progress_bars_text">
+	    							<p>Home Internet</p>
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="progress_bars">
+	    					<div class="progress_bars_color" style="width: 75%;">
+	    						<div class="progress_bars_text">
+	    							<p>Wifi Hotspot</p>
+	    						</div>
+	    					</div>
+	    				</div>
+	    				<div class="progress_bars">
+	    					<div class="progress_bars_color" style="width: 90%;">
+	    						<div class="progress_bars_text">
+	    							<p>Customer Support</p>
+	    						</div>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+    		</div>
+    	</div>
+    </section>
+    <section class="middle_slider aboutus_middle_slider py-5">
+    	<div class="container">
+    		<div class="row">
+	    		<div class="col-md-6 col-12 mx-auto middle_slider_left">
+	    			<div class="about_features">
+	    				<img src="images/middle_slider/amra.png" alt="img" class="img-fluid">
+	    				<img src="images/middle_slider/fiber.png" alt="img" class="img-fluid">
+	    				<img src="images/middle_slider/onesky.png" alt="img" class="img-fluid">
+	    				<img src="images/middle_slider/summit.png" alt="img" class="img-fluid">
+					</div>
+	    		</div>
+	    		<div class="col-md-6 col-12 mx-auto middle_slider_right">
+	    			<p class="middle_slider_title px-4">We are believe in customer satisfaction <br> with best quality and service.</p>
+	    			<p class="sourch_title"><i>Rashedur Rahman Rajon</i></p>
+	    		</div>
+	    	</div>
+    	</div>
+    </section>
+	<footer class="footer_section py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-12 mx-auto footer_culumn">
+					<h5 class="footer_header"><u>CONTACT ADDRESS :</u></h5>
+					<p><span class="mr-2"><i class="fas fa-map-marker-alt"></i></span> 132/A Arambagh, Motijheel (2nd floor), Dhaka-1000, Bangladesh</p>
+					<p><span class="mr-2"><i class="fas fa-phone"></i></span> +8809666772772</p>
+					<p><span class="mr-2"><i class="far fa-envelope"></i></span> info@1netbd.com</p>
+					<p><span class="mr-2"><i class="fas fa-globe"></i></span> www.1netbd.com</p>
+				</div>
+				<div class="col-lg-3 col-md-6 col-12 mx-auto footer_culumn">
+					<h5 class="footer_header"><u>SUPPORT CONTACT NUMBER :</u></h5>
+					<p><span class="mr-2"><i class="fas fa-phone"></i></span> +8809666772772</p>
+					<p><span class="mr-2"><i class="fas fa-phone"></i></span> +8809666772772</p>
+					<p><span class="mr-2"><i class="fas fa-phone"></i></span> +8809666772772</p>
+					<p><span class="mr-2"><i class="fas fa-phone"></i></span> +8809666772772</p>
+				</div>
+				<div class="col-lg-3 col-md-6 col-12 mx-auto footer_culumn">
+					<h5 class="footer_header"><u>CONTACT ADDRESS :</u></h5>
+					<p class="payment_type"><a href="#"><u>bKash Payment Method</u></a></p>
+					<p class="payment_num">+88 01990958206 (bKash Merchant)</p>
+					<p class="payment_type"><u>Roket Payment Method</u></p>
+					<p class="payment_num">+88 01990958206 (bKash Merchant)</p>
+					<p class="payment_type"><a href="#"><u>Online Payment Method</u></a></p>
+				</div>
+				<div class="col-lg-3 col-md-6 col-12 mx-auto footer_culumn">
+					<div class="fb_social_page">
+						<div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<footer class="sm_footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-12 mx-auto">
+					<p class="footer_text">Copyright © 2019 OneNet | All Rights Reserved</p>
+				</div>
+				<div class="col-md-6 col-12 mx-auto">
+					<div class="footer_nav">
+						<ul class="footer_nav_items">
+					      <li class="nav-item footer_nav_list">
+					        <a class="nav-link" href="index.html">Home</a>
+					      </li>
+					      <li class="nav-item footer_nav_list">
+					        <a class="nav-link" href="aboutus.html">About</a>
+					      </li>
+					      <li class="nav-item footer_nav_list">
+					        <a class="nav-link" href="contact.html">Contact</a>
+					      </li>
+					      <li class="nav-item footer_nav_list">
+					        <a class="nav-link" href="login.html">Bill</a>
+					      </li>
+					    </ul>
+					</div> 
+					<!-- responsive nav footer -->
+					<nav class="navbar device_footer_nav">
+						  <button class="navbar-toggler footer_bars_icon" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						    <i class="fas fa-bars"></i>
+						  </button>
+						  <div class="collapse navbar-collapse" id="navbarNav">
+						    <ul class="footer_nav_items">
+					      <li class="nav-item footer_nav_list">
+					        <a class="nav-link" href="index.html">Home</a>
+					      </li>
+					      <li class="nav-item footer_nav_list">
+					        <a class="nav-link" href="aboutus.html">About</a>
+					      </li>
+					      <li class="nav-item footer_nav_list">
+					        <a class="nav-link" href="contact.html">Contact</a>
+					      </li>
+					      <li class="nav-item footer_nav_list">
+					        <a class="nav-link" href="login.html">Bill</a>
+					      </li>
+					    </ul>
+						  </div>
+						</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- facebook page plugins -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0&appId=221122888960507&autoLogAppEvents=1" nonce="G5pDwPje"></script>
+    <!-- main js file -->
+    <script src="js/main.js"></script>
+    </body>
+</html>
